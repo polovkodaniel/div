@@ -1,0 +1,27 @@
+html,body{
+    height: 100%;
+}
+main{ 
+    display: flex;
+    height: 100vh;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    background-color: blue;
+}
+#lewa,#prawa {
+    flex: 1;
+    height: 100%;
+}
+.logo {
+    width: 20%;
+    padding: 20px;
+}
+#lewa {
+    background-color: blueviolet;
+}
+#prawa {
+    background-color: rgb(255, 255, 255);
+}
